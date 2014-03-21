@@ -1,0 +1,9 @@
+---
+ - hosts: default
+   sudo: yes
+   vars: 
+     - ruby_version: ruby2.0
+    
+   roles:
+     - ShadowKoBolt.core
+     - ShadowKoBolt.rails-common

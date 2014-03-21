@@ -1,0 +1,49 @@
+doctype html
+html
+  head
+    title Stag and Wolf Wedding
+    script src="js/jquery-2.1.0.min.js"
+    script src="js/bootstrap.min.js"
+    link rel="stylesheet" type="text/css" href="//f.fontdeck.com/s/css/vyQwJqGQdiI+gxuzCFDHA2+bwgI/#{request.host}/43685.css"
+    link rel="stylesheet" type="text/css" href="css/bootstrap.css"
+    link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css"
+
+  body
+    header#top.navbar.navbar-static-top.bs-docs-nav role="banner" 
+      .container
+        .navbar-header
+          button.navbar-toggle data-target=".bs-navbar-collapse" data-toggle="collapse" type="button" 
+            span.sr-only Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a.navbar-brand href="/"  12th July 2014
+        nav.collapse.navbar-collapse.bs-navbar-collapse role="navigation" 
+          ul.nav.navbar-nav
+            li
+              a href="/" Home 
+            li
+              a href="/menu" Menu 
+            li
+              a href="/rsvp" RSVP
+            li
+              a href="/registry" Registry
+            li
+              a href="/hotels" Hotels
+            li
+              a href="/directions"  Directions
+
+
+    #logo
+      .container
+        .row.text-center
+          img src='image/stag.png' class='img-responsive hidden-xs hidden-sm'
+          h1 Stag and Wolf Wedding
+          img src='image/wolf.png' class='img-responsive hidden-xs hidden-sm'
+
+    .container#main-content
+      == yield
+
+    footer
+      .container.text-center
+        h5 Judges Hotel, Kirklevington, Yarm, Cleveland, TS15 9LW
