@@ -25,4 +25,8 @@ class StagAndWolfApp < Sinatra::Base
   get '/directions' do
     slim :directions
   end
+
+  get '/print' do
+    slim :print, layout: :print_layout
+  end
 end

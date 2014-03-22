@@ -390,6 +390,14 @@ h1, h2, h3, h4, h5, a.navbar-brand {
   font-style: normal;
 }
 
+#main-content span.larger {
+  font-size: 1.4em;
+}
+
+#main-content span.large {
+  font-size: 1.3em;
+}
+
 #main-content p {
   font-size: 1.2em;
   margin-bottom: 40px;
