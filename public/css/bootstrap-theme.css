@@ -442,3 +442,25 @@ ul.navbar-nav {
 span.icon-bar {
   background-color: black;
 }
+
+div.table-plan {
+  border: 1px dashed black;
+  height: 200px;
+  width: 300px;
+  margin-bottom: 90px;
+}
+
+div.page-break {
+  page-break-after: always;
+}
+
+div.table-plan h1 { 
+  font-size: 1.8em;
+}
+div.table-plan h2 {
+  font-size: 1.1em;
+}
+
+div.table-plan.top-table {
+  height: 330px;
+}

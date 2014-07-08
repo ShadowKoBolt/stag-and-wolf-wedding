@@ -1,32 +1,36 @@
 require 'sinatra'
 require 'slim'
 
-class StagAndWolfApp < Sinatra::Base
-  get '/' do
-    slim :home
-  end
+set :bind, '192.168.69.69'
 
-  get '/menu' do
-    slim :menu
-  end
+get '/' do
+  slim :home
+end
 
-  get '/rsvp' do
-    slim :rsvp
-  end
+get '/menu' do
+  slim :menu
+end
 
-  get '/registry' do
-    slim :registry
-  end
+get '/rsvp' do
+  slim :rsvp
+end
 
-  get '/hotels' do
-    slim :hotels
-  end
+get '/registry' do
+  slim :registry
+end
 
-  get '/directions' do
-    slim :directions
-  end
+get '/hotels' do
+  slim :hotels
+end
 
-  get '/print' do
-    slim :print, layout: :print_layout
-  end
+get '/directions' do
+  slim :directions
+end
+
+get '/print' do
+  slim :print, layout: :print_layout
+end
+
+get '/table-plan' do
+  slim :table_plan, layout: :print_layout
 end
