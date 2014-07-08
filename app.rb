@@ -34,3 +34,7 @@ end
 get '/table-plan' do
   slim :table_plan, layout: :print_layout
 end
+
+get '/table-names' do
+  slim :table_names, layout: :print_layout
+end

@@ -464,3 +464,21 @@ div.table-plan h2 {
 div.table-plan.top-table {
   height: 330px;
 }
+
+div.table-name {
+  page-break-after: always;
+  margin-bottom: 200px;
+}
+
+div.table-name h1 {
+  font-size: 2.0em; 
+}
+
+div.table-name h2 {
+  font-size: 1.5em;
+}
+
+div.table-name img {
+  max-width: 250px;
+  max-height: 250px;
+}
