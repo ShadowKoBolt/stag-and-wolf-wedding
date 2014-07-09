@@ -471,14 +471,22 @@ div.table-name {
 }
 
 div.table-name h1 {
-  font-size: 2.0em; 
+  font-size: 2.2em; 
 }
 
 div.table-name h2 {
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 
 div.table-name img {
-  max-width: 250px;
-  max-height: 250px;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+div.print#main-content {
+  margin-top: 0;
+  padding-top: 0;
+}
+div.folded-card {
+  margin-top: 19cm;
 }

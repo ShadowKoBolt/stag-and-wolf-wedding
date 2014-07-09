@@ -38,3 +38,7 @@ end
 get '/table-names' do
   slim :table_names, layout: :print_layout
 end
+
+get '/random' do
+  slim :random, layout: :print_layout
+end
